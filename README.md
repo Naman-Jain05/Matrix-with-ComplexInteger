@@ -7,10 +7,15 @@ additional friend function to display the contents of the Object. Perform the fo
 arithmetic operations by overloading appropriate operators.
 
 i) + : Adds 2 ComplexInteger objects.
+
 ii) - : Subtracts a ComplexInteger object from the other.
+
 iii) * : Multiplies 2 ComplexInteger objects.
+
 iv) / : Divides 2 ComplexInteger objects.
+
 v) > : (Unary) Swaps the real and Imaginary values of the object.
+
 vi) ^ : (Unary) Multiplies the ComplexInteger object with its Conjugate and stores in the current object.
 
 Problem 2: Define a class Matrix  which contains ComplexInteger objects as an
@@ -35,7 +40,9 @@ counting order with 0+0i. (if it exists)
 Say Matrix is :
 
 2+3i 5+2i 7+9i
+
 5+3i 10+2i 71+9i
+
 8+3i 15+2i 27+19i
 
 After calling :
@@ -43,7 +50,9 @@ matrix^7;
 The Matrix becomes :
 
 2+3i 5+2i 7+9i
+
 5+3i 10+2i 71+9i
+
 0+0i 15+2i 27+19i
 
 (element no.7 replaced with 0+0i )
